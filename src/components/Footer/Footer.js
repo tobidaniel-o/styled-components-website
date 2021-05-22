@@ -1,5 +1,11 @@
 import React from "react";
-import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
 import { Button } from "../../globalStyles";
 import {
   FooterContainer,
@@ -13,6 +19,13 @@ import {
   FooterLinksItems,
   FooterLinksWrapper,
   FooterLinkTitle,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink,
+  SocialIcon,
 } from "./Footer.elements";
 
 const Footer = () => {
@@ -47,7 +60,8 @@ const Footer = () => {
             <FooterLink to="/">Investors</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
-
+        </FooterLinksWrapper>
+        <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>

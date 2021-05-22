@@ -32,7 +32,6 @@ export const homeObjTwo = {
   start: "",
 };
 
-
 export const homeObjThree = {
   primary: false,
   lightBg: true,
@@ -46,7 +45,7 @@ export const homeObjThree = {
     "Their team is wonderful! I can't believe I didn't start working with them earlier.",
   buttonLabel: "View Case Study",
   imgStart: "start",
-  img: require("../../images/profile.jpg").default,
+  img: require("../../images/profile.jpeg").default,
   alt: "Vault",
   start: "true",
 };
